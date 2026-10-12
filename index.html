@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blip – Privacy & Support</title>
+<style>
+  :root { --bg:#F9FBFC; --text:#1A202C; --muted:#718096; --line:#E2E8F0; --card:#FFFFFF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#000000; --text:#F9FBFC; --muted:#8A94A6; --line:#2D3748; --card:#1C1E24; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font: 16px/1.6 ui-rounded, -apple-system, "SF Pro Rounded", system-ui, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-size: 34px; letter-spacing: -0.5px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 40px; }
+  h2 { font-size: 13px; letter-spacing: 1.4px; text-transform: uppercase;
+       color: var(--muted); margin: 40px 0 12px; font-weight: 600; }
+  section { background: var(--card); border: 1px solid var(--line);
+            border-radius: 20px; padding: 20px 22px; }
+  p { margin: 0 0 12px; } p:last-child { margin-bottom: 0; }
+  ul { margin: 0; padding-left: 20px; } li { margin-bottom: 6px; }
+  a { color: inherit; }
+  footer { color: var(--muted); font-size: 13px; margin-top: 40px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Blip</h1>
+  <p class="sub">Expense tracker. Log a spend in three seconds.</p>
+
+  <h2 id="privacy">Privacy policy</h2>
+  <section>
+    <p><strong>Blip collects no data.</strong> There is no account, no sign-up, no analytics, no advertising and no server.</p>
+    <ul>
+      <li>Everything you enter — amounts, categories, notes, budgets — is stored only on your iPhone.</li>
+      <li>Nothing is sent to the developer or to any third party.</li>
+      <li>Exports (CSV or JSON) are created only when you ask, and go only where you choose to send them.</li>
+      <li>The optional Face ID lock is handled entirely by iOS; Blip never sees your biometric data.</li>
+      <li>The optional daily reminder is a local notification scheduled on your device.</li>
+    </ul>
+    <p style="margin-top:12px">Deleting the app deletes all of its data. If this policy ever changes — for example, if optional iCloud sync is added — this page will be updated before the change ships.</p>
+    <p>Last updated: 9 October 2026.</p>
+  </section>
+
+  <h2 id="support">Support</h2>
+  <section>
+    <p>Questions, bugs or feature requests: <a href="mailto:smart1232@gmail.com">smart1232@gmail.com</a></p>
+    <p><strong>Moving to a new phone?</strong> Settings → Export &amp; import → Export JSON on the old phone, then Restore JSON on the new one.</p>
+    <p><strong>Siri:</strong> say “Log food in Blip”, then answer the amount. Every phrase is listed in the Shortcuts app under Blip.</p>
+  </section>
+
+  <footer>© 2026 Vinay Pahal</footer>
+</main>
+</body>
+</html>
